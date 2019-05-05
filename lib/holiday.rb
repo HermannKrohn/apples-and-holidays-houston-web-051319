@@ -49,6 +49,7 @@ def all_winter_holiday_supplies(holiday_hash)
   justWinterData.each do |element|
     winterOneDim << element
   end
+  puts winterOneDim
   winterOneDim
 end
 
