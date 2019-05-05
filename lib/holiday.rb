@@ -47,8 +47,7 @@ def all_winter_holiday_supplies(holiday_hash)
   winterOneDim = []
   justWinterData = holiday_hash[:winter].values
   puts justWinterData
-  winterMulDim = justWinterData.values 
-  winterMulDim.each do |subArr|
+  winterMulDim = justWinterData.values interMulDim.each do |subArr|
     winterOneDim << subArr
   end
   winterOneDim
