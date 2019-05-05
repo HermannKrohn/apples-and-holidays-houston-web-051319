@@ -44,13 +44,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-  winterOneDim = []
-  justWinterData = holiday_hash[:winter].values
-  justWinterData.each do |element|
-    winterOneDim << element
-  end
-  puts winterOneDim
-  winterOneDim
+  holiday_hash[:winter].values
 end
 
 def all_supplies_in_holidays(holiday_hash)
